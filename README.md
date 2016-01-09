@@ -6,6 +6,7 @@ I wrote this project for my high school Data Structures course. Solitaire specif
 Although my teacher provided our class with the basic JFrame skeleton for playing the game, I myself modified the card art and various color schemes in order to make gameplay more enjoyable.
 
 
+
 To run this in bash:
 
 bash run.sh
