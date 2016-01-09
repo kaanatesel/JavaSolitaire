@@ -1,7 +1,11 @@
 /**
- * @author Richard Page probably
- * @author Kedar Gupta 2014 December 2
- * Contains a whole playable Solitaire game
+ * @author Kedar Gupta
+ * @version December 2, 2014
+ *
+ * Contains methods for a complete, playable Solitaire game. Utilizing the
+ * JFrame library and the specific data structures of Lists and Stacks,
+ * this project allows the user to click through a game of Solitaire and
+ * hopefully win.
  */
 import java.util.*;
 

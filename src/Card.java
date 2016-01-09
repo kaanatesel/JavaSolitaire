@@ -1,5 +1,6 @@
 /**
- * Created by KGupta99 on 12/2/14.
+ * @author Kedar Gupta
+ * @version December 2, 2014
  *
  * Contains methods and many tools for manipulating a Card object, used in
  * the Solitaire game
@@ -80,12 +81,12 @@ public class Card {
      */
     public String getFileName()
     {
-        if (!isFaceUp)return "../Solitaire/src/cards/back.gif"; //using escape sequence, not double slash
-        if (rank == 10) return "../Solitaire/src/cards/t" + suit + ".gif";
-        if (rank == 11) return "../Solitaire/src/cards/j" + suit + ".gif";
-        if (rank == 12) return "../Solitaire/src/cards/q" + suit + ".gif";
-        if (rank == 13) return "../Solitaire/src/cards/k" + suit + ".gif";
-        if (rank == 1) return "../Solitaire/src/cards/a" + suit + ".gif";
-        return "../Solitaire/src/cards/" + rank + suit + ".gif";
+        if (!isFaceUp)return "../src/cards/back.gif"; //using escape sequence, not double slash
+        if (rank == 10) return "../src/cards/t" + suit + ".gif";
+        if (rank == 11) return "../src/cards/j" + suit + ".gif";
+        if (rank == 12) return "../src/cards/q" + suit + ".gif";
+        if (rank == 13) return "../src/cards/k" + suit + ".gif";
+        if (rank == 1) return "../src/cards/a" + suit + ".gif";
+        return "../src/cards/" + rank + suit + ".gif";
     }
 }
