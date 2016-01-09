@@ -7,4 +7,5 @@ Although my teacher provided our class with the basic JFrame skeleton for playin
 
 
 To run this simply use the run script contained within the root directory:
-  bash run.sh
+  
+bash run.sh
