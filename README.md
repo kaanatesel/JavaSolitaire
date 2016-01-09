@@ -11,5 +11,5 @@ To run this simply use the run script contained within the root directory:
   
 bash run.sh
 
-![Start Screen](https://raw.github.com/kgupta99/Stack-Solitaire/master/img/StartScreen.png)
-![Gameplay](https://raw.github.com/kgupta99/Stack-Solitaire/master/img/Gameplay.png)
+![Start Screen](https://raw.github.com/kgupta99/Solitaire-In-Java/master/img/StartScreen.png)
+![Gameplay](https://raw.github.com/kgupta99/Solitaire-In-Java/master/img/Gameplay.png)
