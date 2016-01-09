@@ -11,4 +11,4 @@ Simply use the run script:
   
 bash run.sh
 
-![Gameplay](https://raw.github.com/kgupta99/Solitaire-In-Java/master/img/Gameplay.gif)
+![Gameplay!](https://raw.github.com/kgupta99/Solitaire-In-Java/master/img/Gameplay.gif)
