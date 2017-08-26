@@ -1,5 +1,5 @@
 # Java Solitaire
-Solitaire is a simple Java implementation of the classic one-player game. It allows the user to interact by clicking on cards and then clicking again on the spot to which a card or stack of cards can be moved.
+This simple Java implementation of the classic one-player game allows the user to interact by clicking on cards and then clicking again on the spot to which a card or stack of cards can be moved.
   
 ![Gameplay!](https://raw.github.com/kgupta99/Solitaire-In-Java/master/img/Gameplay.gif)
   
