@@ -81,12 +81,12 @@ public class Card {
      */
     public String getFileName()
     {
-        if (!isFaceUp)return "../src/cards/back.gif"; //using escape sequence, not double slash
-        if (rank == 10) return "../src/cards/t" + suit + ".gif";
-        if (rank == 11) return "../src/cards/j" + suit + ".gif";
-        if (rank == 12) return "../src/cards/q" + suit + ".gif";
-        if (rank == 13) return "../src/cards/k" + suit + ".gif";
-        if (rank == 1) return "../src/cards/a" + suit + ".gif";
-        return "../src/cards/" + rank + suit + ".gif";
+        if (!isFaceUp)return "cards/back.gif"; //using escape sequence, not double slash
+        if (rank == 10) return "cards/t" + suit + ".gif";
+        if (rank == 11) return "cards/j" + suit + ".gif";
+        if (rank == 12) return "cards/q" + suit + ".gif";
+        if (rank == 13) return "cards/k" + suit + ".gif";
+        if (rank == 1) return "cards/a" + suit + ".gif";
+        return "cards/" + rank + suit + ".gif";
     }
 }

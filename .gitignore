@@ -3,3 +3,6 @@
 *.iml
 *.class
 
+/bin/
+.classpath
+.project
