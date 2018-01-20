@@ -78,7 +78,8 @@ public class SolitaireDisplay extends JComponent implements MouseListener
 		}
 		else
 		{
-			String fileName = card.getFileName();
+		
+			String fileName = getClass().getClassLoader().getResource(card.getFileName()).getPath();
 			if (!new File(fileName).exists())
 			    throw new IllegalArgumentException("bad file name:  " + fileName);
 			Image image = new ImageIcon(fileName).getImage();
